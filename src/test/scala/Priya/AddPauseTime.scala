@@ -19,7 +19,7 @@ val scn= scenario(scenarioName = "Add Pause Time")
   .get("videogames/1"))
   .pause(1 , 20)
 
-  .exec(http(requestName = "get vedio game")
+  .exec(http(requestName = "get vedio game 1")
     .get("videogames"))
   .pause(3000.milliseconds)
 
