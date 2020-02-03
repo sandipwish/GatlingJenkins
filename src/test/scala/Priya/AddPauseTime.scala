@@ -25,7 +25,7 @@ val scn= scenario(scenarioName = "Add Pause Time")
 
   setUp(
 
-    scn.inject(atOnceUsers(1))
+    scn.inject(atOnceUsers(5))
       .protocols(httpConf)
   )
 
